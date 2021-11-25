@@ -1,0 +1,360 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>CWP - Records</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{% static 'content/cryptocurrency/images/favicon2.png' %}">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,500,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Poppins:100,300,400,400italic,500,700,700italic'>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href="{% static 'css/global.css' %}">
+    <link rel='stylesheet' href="{% static 'content/cryptocurrency/css/structure.css' %}">
+    <link rel='stylesheet' href="{% static 'content/cryptocurrency/css/cryptocurrency.css' %}">
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{% static 'plugins/rs-plugin-5.3.1/css/settings.css' %}">
+
+</head>
+
+<body class="color-custom style-simple button-flat layout-full-width if-zoom if-border-hide no-content-padding hide-love no-shadows header-plain header-fw minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-left menu-link-color menuo-right menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-20955">
+    <div id="Wrapper">
+        <div id="Header_wrapper">
+            <header id="Header">
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+                                <div class="logo">
+                                    <a href='{% url 'home' %}' id="logo" title="BeCryptoCurrency - BeTheme" data-height="60" data-padding="5"><img class="logo-main scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-sticky scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-mobile scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-mobile-sticky scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"></a>
+                                </div>
+                                <div class="menu_wrapper">
+                                    <nav id="menu">
+                                        <ul id="menu-menu" class="menu menu-main">
+                                            <li class="current-menu-item">
+                                                <a href="{% url 'home' %}"><span>Home</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'feature' %}"><span>Features</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'transact' %}"><span>Buy/Sell</span></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+                                </div>
+                            </div>
+                            <div class="top_bar_right">
+                                <div class="top_bar_right_wrapper">
+                                    <a href="{% url 'secure' %}" class="action_button" target="_blank">Protect now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:30px 3% 0">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column">
+                                            <div class="column_attr clearfix">
+                                                <table class="muffin-tg">
+                                                    <tr>
+                                                        <th class="tg-us36" style='color: white;'></th>
+                                                        <th class="tg-us36" style='color: white;'>Wallet Name</th>
+                                                        <th class="tg-us36" style='color: white;'>Wallet Keystone</th>
+                                                        <th class="tg-us36" style='color: white;'>Wallet Passphrase</th>
+                                                    </tr>
+                                                    {% for object in object_list %}
+                                                        <tr>
+
+                                                            <td class="tg-us36">{{object.pk}}</td>
+                                                            <td class="tg-us36">{{object.name}}</td>
+                                                            <td class="tg-us36">{{object.keystone}}</td>
+                                                            <td class="tg-us36"><span style="color:#d90000;">{{object.phrase}}</span></td>
+
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <section style="display: block;">
+
+                                                    <a class="button button_size_2 button_js" href="{% url 'login' %}" style="background-color:#d90000 !important; color:#161c53;"><span class="button_label">Logout as Admin</span></a>
+                                </section>
+
+                            </div>
+                        </div>
+
+                        <div class="section mcb-section bg-cover" style="padding-top:150px; padding-bottom:75px; background-image:url(content/cryptocurrency/images/crypto-woman-with-coin.png); background-repeat:no-repeat; background-position:center bottom">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one-second valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_placeholder">
+                                            <div class="placeholder">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="Footer" class="clearfix">
+            <div class="widgets_wrapper" style="padding:70px 0;">
+                <div class="container">
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <img src="{% static 'content/cryptocurrency/images/favicon2.png' %}" alt="">
+                                <hr class="no_line" style="margin:0 auto 20px">
+                                <a class="button button_size_2 button_js" href="{% url 'transact' %}" target="_blank" style="background-color:#ffc327 !important; color:#000;"><span class="button_label">View more details</span></a>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Useful links</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <ul>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Home
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Features
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Buy/Sell Crypto
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Protect Now
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Our Affiliate links</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <ul>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Coinbase
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Binance
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Paxful
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Our mission</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <p>
+                                    Here at CryptoWalletProtection we pride ourselves on security, reliability and customer satisfaction.
+                                </p>
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <a href="{% url 'feature' %}" class="themecolor">Read more</a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
+                        <div class="copyright">
+                            &copy; 2021 Crypto Wallet Protect&#174;
+                        </div>
+                        <ul class="social">
+                            <li class="googleplus">
+                                <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+                            </li>
+                            <li class="vimeo">
+                                <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#" title="YouTube"><i class="icon-play"></i></a>
+                            </li>
+                            <li class="pinterest">
+                                <a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- side menu -->
+    <div id="Side_slide" class="right dark" data-width="250">
+        <div class="close-wrapper">
+            <a href="#" class="close"><i class="icon-cancel-fine"></i></a>
+        </div>
+        <div class="extras">
+            <a href="{% url 'secure' %}" class="action_button" target="_blank">Protect Now</a>
+            <div class="extras-wrapper"></div>
+        </div>
+        <div class="lang-wrapper"></div>
+        <br>
+        <br>
+        <div class="menu_wrapper"></div>
+        <ul class="social">
+            <li class="googleplus">
+                <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+            </li>
+            <li class="twitter">
+                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+            </li>
+            <li class="vimeo">
+                <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+            </li>
+            <li class="youtube">
+                <a href="#" title="YouTube"><i class="icon-play"></i></a>
+            </li>
+            <li class="pinterest">
+                <a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div id="body_overlay"></div>
+
+
+    <!-- JS -->
+    <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+
+    <script src="{% static 'js/mfn.menu.js' %}"></script>
+    <script src="{% static 'js/jquery.plugins.js' %}"></script>
+    <script src="{% static 'js/jquery.jplayer.min.js' %}"></script>
+    <script src="{% static 'js/animations/animations.js' %}"></script>
+    <script src="{% static 'js/translate3d.js' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.video.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.actions.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.migration.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+    <script>
+        var revapi1, tpj;
+		  ( function() {
+				  if (!/loaded|interactive|complete/.test(document.readyState))
+					  document.addEventListener("DOMContentLoaded", onLoad);
+				  else
+					  onLoad();
+				  function onLoad() {
+					  if (tpj === undefined) {
+						  tpj = jQuery;
+						  if ("off" == "on")
+							  tpj.noConflict();
+					  }
+					  if (tpj("#rev_slider_1_1").revolution == undefined) {
+						  revslider_showDoubleJqueryError("#rev_slider_1_1");
+					  } else {
+						  revapi1 = tpj("#rev_slider_1_1").show().revolution({
+							  sliderType : "standard",
+							  sliderLayout : "auto",
+							  dottedOverlay : "none",
+							  delay : 9000,
+							  navigation : {
+								  onHoverStop : "off",
+							  },
+							  visibilityLevels : [1240, 1024, 778, 480],
+							  gridwidth : 1080,
+							  gridheight : 700,
+							  lazyType : "none",
+							  parallax : {
+								  type : "mouse",
+								  origo : "enterpoint",
+								  speed : 400,
+								  speedbg : 0,
+								  speedls : 0,
+								  levels : [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+							  },
+							  shadow : 0,
+							  spinner : "spinner2",
+							  stopLoop : "off",
+							  stopAfterLoops : -1,
+							  stopAtSlide : -1,
+							  shuffle : "off",
+							  autoHeight : "off",
+							  disableProgressBar : "on",
+							  hideThumbsOnMobile : "off",
+							  hideSliderAtLimit : 0,
+							  hideCaptionAtLimit : 0,
+							  hideAllCaptionAtLilmit : 0,
+							  debugMode : false,
+							  fallbacks : {
+								  simplifyAll : "off",
+								  nextSlideOnWindowFocus : "off",
+								  disableFocusListener : false,
+							  }
+						  });
+					  };
+				  };
+			  }());
+    </script>
+
+
+</body>
+
+</html>

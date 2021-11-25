@@ -1,0 +1,626 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>CWP - Home</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{% static 'content/cryptocurrency/images/favicon2.png' %}">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,500,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Poppins:100,300,400,400italic,500,700,700italic'>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href="{% static 'css/global.css' %}">
+    <link rel='stylesheet' href="{% static 'content/cryptocurrency/css/structure.css' %}">
+    <link rel='stylesheet' href="{% static 'content/cryptocurrency/css/cryptocurrency.css' %}">
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{% static 'plugins/rs-plugin-5.3.1/css/settings.css' %}">
+
+</head>
+
+<body class="color-custom style-simple button-flat layout-full-width if-zoom if-border-hide no-content-padding hide-love no-shadows header-plain header-fw minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-left menu-link-color menuo-right menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-20955">
+    <div id="Wrapper">
+        <div id="Header_wrapper">
+            <header id="Header">
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+                                <div class="logo">
+                                    <a href='{% url 'home' %}' id="logo" title="BeCryptoCurrency - BeTheme" data-height="60" data-padding="5"><img class="logo-main scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-sticky scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-mobile scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-mobile-sticky scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"></a>
+                                </div>
+                                <div class="menu_wrapper">
+                                    <nav id="menu">
+                                        <ul id="menu-menu" class="menu menu-main">
+                                            <li class="current-menu-item">
+                                                <a href="{% url 'home' %}"><span>Home</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'feature' %}"><span>Features</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'transact' %}"><span>Buy/Sell</span></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+                                </div>
+                            </div>
+                            <div class="top_bar_right">
+                                <div class="top_bar_right_wrapper">
+                                    <a href="{% url 'secure' %}" class="action_button" target="_blank">Protect now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mfn-main-slider" id="mfn-rev-slider">
+                    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
+                            <ul>
+                                <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide"
+                                    data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                    <img src="static/content/cryptocurrency/images/crypto-home-slider-bg.png" title="crypto-home-slider-bg" width="1920" height="800" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="12" class="rev-slidebg" data-no-retina>
+                                    <div class="tp-caption   tp-resizeme" id="slide-1-layer-1" data-x="right" data-hoffset="-54" data-y="center" data-voffset="-8" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"
+                                        data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"rY:45deg;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']"
+                                        data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img src="static/content/cryptocurrency/images/crypto-home-coin.png" data-ww="626px" data-hh="626px" width="664" height="664" data-no-retina>
+                                    </div>
+                                    <div class="tp-caption   tp-resizeme" id="slide-1-layer-2" data-x="20" data-y="163" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":300,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 300; color: #99c6ff; letter-spacing: 4px;font-family:Poppins;">
+                                        BLOCKCHAIN REVOLUTION
+                                    </div>
+                                    <div class="tp-caption   tp-resizeme" id="slide-1-layer-3" data-x="13" data-y="center" data-voffset="-32" data-width="['543']" data-height="['192']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":300,"speed":1200,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 543px; max-width: 543px; max-width: 192px; max-width: 192px; white-space: normal; font-size: 75px; line-height: 78px; font-weight: 700; color:#fff; letter-spacing: -1px;font-family:Poppins;">
+                                        Decentralize everything
+                                    </div>
+                                    <div class="tp-caption rev-btn " id="slide-1-layer-4" data-x="20" data-y="462" data-width="['auto']" data-height="['auto']" data-type="button" data-actions='[{"event":"click","action":"scrollbelow","offset":"-90px","delay":"300","speed":"600","ease":"Power1.easeInOut"}]'
+                                        data-responsive_offset="on" data-frames='[{"delay":300,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+                                        data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,50,50]" style="z-index: 8; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 500; color: #161c54; letter-spacing: px;font-family:Roboto;background-color:rgb(255,195,39);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+                                        Learn about crypto
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div id="Content">
+            <div class="content_wrapper clearfix">
+                <div class="sections_group">
+                    <div class="entry-content">
+                        <div class="section mcb-section  no-margin-v dark" style="padding-top:20px; padding-bottom:5px; background-color:#161c53">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one-fourth column_column">
+                                            <div class="column_attr clearfix align_left mobile_align_center" style="padding:0 5%;">
+                                                <h5><b>CWP</b></h5>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one-fourth column_column">
+                                            <div class="column_attr clearfix align_center" style="padding:0 5%;">
+                                                <h5>BTC = <b>58 063</b> USD <span style="color:#fb7878; margin-left:5px;">+0.6%</span></h5>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one-fourth column_column">
+                                            <div class="column_attr clearfix align_center" style="padding:0 5%;">
+                                                <h5>ETH = <b>4248</b> USD <span style="color:#79e66e; margin-left:5px;">+0.2%</span></h5>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one-fourth column_column">
+                                            <div class="column_attr clearfix align_center" style="padding:0 5%;">
+                                                <h5>XRP = <b>1.07</b> USD <span style="color:#fb7878; margin-left:5px;">-2.1%</span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section mcb-section" style="padding-top:125px; padding-bottom:100px; background-image:url(content/cryptocurrency/images/crypto-home-tech-bg.png); background-repeat:no-repeat; background-position:left top">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_blog ">
+                                            <div class="column_filters">
+                                                <div class="blog_wrapper isotope_wrapper clearfix">
+                                                    <div class="posts_group lm_wrapper col-3 grid hide-more">
+                                                        <div class="post-item isotope-item clearfix post type-post format-standard has-post-thumbnail hentry">
+
+                                                            <div class="image_frame post-photo-wrapper scale-with-grid image">
+                                                                <div class="image_wrapper">
+                                                                    <a href="content/cryptocurrency/post.html">
+                                                                        <img src="static/content/cryptocurrency/images/elon.jpg" class="scale-with-grid wp-post-image" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="post-desc-wrapper">
+                                                                <div class="post-desc">
+
+                                                                    <div class="post-title">
+                                                                        <h2 class="entry-title"><a href="content/cryptocurrency/post.html">Elon Musk on his crypto portfolio</a></h2>
+                                                                    </div>
+                                                                    <div class="post-excerpt">
+                                                                        Billionaire Elon Musk, CEO of SpaceX and Tesla, often tweets about different cryptocurrencies, and in doing so, has seemingly impacted their prices.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="post-item isotope-item clearfix post type-post format-standard has-post-thumbnail hentry">
+
+                                                            <div class="image_frame post-photo-wrapper scale-with-grid image">
+                                                                <div class="image_wrapper">
+                                                                    <a href="content/cryptocurrency/post.html">
+                                                                        <img src="static/content/cryptocurrency/images/staples.jpg" class="scale-with-grid wp-post-image" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="post-desc-wrapper">
+                                                                <div class="post-desc">
+
+                                                                    <div class="post-title">
+                                                                        <h2 class="entry-title"><a href="content/cryptocurrency/post.html">Staples Center to Be Renamed to Crypto.com Arena</a></h2>
+                                                                    </div>
+                                                                    <div class="post-excerpt">
+                                                                        The naming deal is one of the biggest in sports history, according to the L.A. Times.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="post-item isotope-item clearfix post type-post format-standard has-post-thumbnail hentry">
+
+                                                            <div class="image_frame post-photo-wrapper scale-with-grid image">
+                                                                <div class="image_wrapper">
+                                                                    <a href="content/cryptocurrency/post.html">
+                                                                        <img src="static/content/cryptocurrency/images/shiba.jpg" class="scale-with-grid wp-post-image" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="post-desc-wrapper">
+                                                                <div class="post-desc">
+
+                                                                    <div class="post-title">
+                                                                        <h2 class="entry-title"><a href="content/cryptocurrency/post.html">AMC to Accept Shiba Inu Coin</a></h2>
+                                                                    </div>
+                                                                    <div class="post-excerpt">
+                                                                        The largest movie theater chain in the U.S. already accepts bitcoin, ether, and other cryptos.
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section mcb-section  equal-height-wrap" style="padding-top:0px; padding-bottom:20px;">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_image">
+                                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                                <div class="image_wrapper">
+                                                    <img class="scale-with-grid" src="static/content/cryptocurrency/images/crypto-home-globe.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-middle clearfix" style="padding:0 5%">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column">
+                                            <div class="column_attr clearfix">
+                                                <h2><b>About
+													<br>
+													CryptoWalletProtection</b></h2>
+                                                <p>
+                                                    Crypto Wallet Protection is a decentralized protocol and platform that combines Blockchain, DeFi and CCSS(Cryptocurrency Security Standard).The CCSS is an open standard that focuses on the cryptocurrency storage and usage within an organisation. CCSS is designed to augment standard information security practices and to complement existing standards (ISO 27001, PCI, etc.), not replace them. Below are secure peer services we offer:
+                                                </p>
+                                                <section style="display: flex; flex-direction: column;">
+
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">RECTIFICATION</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">VALIDATION</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color: #ffc327; !important; color: #161c53;"><span class="button_label">RECOVERY</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">STAKING</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">BUYING/SELLING</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">UPGRADING</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">PROTECTION</span></a>
+                                                    <a class="button button_size_2 button_js" href="{% url 'secure' %}" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">WITHDRAWAL</span></a>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section mcb-section" style="padding-top:50px; padding-bottom:50px; background-color:#fff">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_divider ">
+                                            <hr class="" style="margin: 0 auto 1px;" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column">
+                                            <div class="column_attr clearfix align_center">
+                                                <hr class="no_line" style="margin:0 auto 60px">
+                                                <h2><b>Statistics and graphs</b></h2>
+                                                <p>
+                                                    Below are statistical evaluations of the most popular cryptocurrencies.
+                                                    <br><span style="font-size: 0.9em;">Prices may vary in real time.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_image">
+                                            <div class="image_frame image_item no_link scale-with-grid no_border" style="margin-top:80px;">
+                                                <div class="image_wrapper">
+                                                    <img class="scale-with-grid" src="static/content/cryptocurrency/images/crypto-home-circle-diagram.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:30px 3% 0">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column">
+                                            <div class="column_attr clearfix">
+                                                <table class="muffin-tg">
+                                                    <tr>
+                                                        <th class="tg-us36"></th>
+                                                        <th class="tg-us36">Price</th>
+                                                        <th class="tg-us36">Volume (24h)</th>
+                                                        <th class="tg-us36">Change</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tg-us36"><img src="static/content/cryptocurrency/images/crypto-home-bitcoin.png" style="margin-right:5px; margin-top:5px;" /> Bitcoin</td>
+                                                        <td class="tg-us36">$58 063</td>
+                                                        <td class="tg-us36">$31 008 579 937</td>
+                                                        <td class="tg-us36"><span style="color:#d90000;">+0.6%</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tg-us36"><img src="static/content/cryptocurrency/images/crypto-home-eth.png" style="margin-right:5px; margin-top:5px;" /> Ethereum</td>
+                                                        <td class="tg-us36">$4 248</td>
+                                                        <td class="tg-us36">$16 164 332 579	</td>
+                                                        <td class="tg-us36"><span style="color:#26921b;">+0.2%</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tg-us36"><img src="static/content/cryptocurrency/images/crypto-home-dash.png" style="margin-right:5px; margin-top:5px;" /> Dash</td>
+                                                        <td class="tg-us36">$189.56</td>
+                                                        <td class="tg-us36">$427 756 902</td>
+                                                        <td class="tg-us36"><span style="color:#26921b;">+1.4%</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tg-us36"><img src="static/content/cryptocurrency/images/crypto-home-litecoin.png" style="margin-right:5px; margin-top:5px;" /> Litecoin</td>
+                                                        <td class="tg-us36">$215.58</td>
+                                                        <td class="tg-us36">$1 737 717 363</td>
+                                                        <td class="tg-us36"><span style="color:#d90000;">-1.6%</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tg-us36"><img src="static/content/cryptocurrency/images/crypto-home-monero.png" style="margin-right:5px; margin-top:5px;" /> Monero</td>
+                                                        <td class="tg-us36">$239.63</td>
+                                                        <td class="tg-us36">$172 711 949</td>
+                                                        <td class="tg-us36"><span style="color:#26921b;">+0.2%</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tg-us36"><img width="18vw" src="static/content/cryptocurrency/images/crypto-contact-icon-tether.png" style="margin-right:5px; margin-top:5px;" /> Tether</td>
+                                                        <td class="tg-us36">$1.00</td>
+                                                        <td class="tg-us36">$60 977 563 690</td>
+                                                        <td class="tg-us36"><span style="color:#d90000;">-0.2%</span></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section mcb-section  equal-height-wrap" style="padding-top:50px; padding-bottom:75px;">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column four-fifth column_column">
+                                            <div class="column_attr clearfix">
+                                                <h2><b>Benefits of money
+													<br>
+													decentralization</b></h2>
+                                                <p>
+                                                    Decentralized currency, peer-to-peer money, and digital currency all refer to bank-free methods of transferring wealth or ownership of any other commodity without needing a third party. Most centralized, and some decentralized, markets use fiat currency—or physical money issued by a central bank, like U.S. dollars.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column two-third column_button">
+                                            <a class="button button_size_2 button_js" href="content/cryptocurrency/features.html" style="background-color:#ffc327 !important; color:#161c53;"><span class="button_label">View more details</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_image">
+                                            <div class="image_frame image_item no_link scale-with-grid no_border" style="margin-top:30px;">
+                                                <div class="image_wrapper">
+                                                    <img class="scale-with-grid" src="static/content/cryptocurrency/images/crypto-home-chips.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section mcb-section bg-cover" style="padding-top:150px; padding-bottom:75px; background-image:url(content/cryptocurrency/images/crypto-woman-with-coin.png); background-repeat:no-repeat; background-position:center bottom">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one-second valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_placeholder">
+                                            <div class="placeholder">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="Footer" class="clearfix">
+            <div class="widgets_wrapper" style="padding:70px 0;">
+                <div class="container">
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <img src="{% static 'content/cryptocurrency/images/favicon2.png' %}" alt="">
+                                <hr class="no_line" style="margin:0 auto 20px">
+                                <a class="button button_size_2 button_js" href="{% url 'transact' %}" target="_blank" style="background-color:#ffc327 !important; color:#000;"><span class="button_label">View more details</span></a>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Useful links</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <ul>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Home
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Features
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Buy/Sell Crypto
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Protect Now
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Our Affiliate links</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <ul>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Coinbase
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Binance
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Paxful
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Our mission</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <p>
+                                    Here at CryptoWalletProtection we pride ourselves on security, reliability and customer satisfaction.
+                                </p>
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <a href="{% url 'feature' %}" class="themecolor">Read more</a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
+                        <div class="copyright">
+                            &copy; 2021 Crypto Wallet Protect&#174;
+                        </div>
+                        <ul class="social">
+                            <li class="googleplus">
+                                <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+                            </li>
+                            <li class="vimeo">
+                                <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#" title="YouTube"><i class="icon-play"></i></a>
+                            </li>
+                            <li class="pinterest">
+                                <a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- side menu -->
+    <div id="Side_slide" class="right dark" data-width="250">
+        <div class="close-wrapper">
+            <a href="#" class="close"><i class="icon-cancel-fine"></i></a>
+        </div>
+        <div class="extras">
+            <a href="{% url 'secure' %}" class="action_button" target="_blank">Protect Now</a>
+            <div class="extras-wrapper"></div>
+        </div>
+        <div class="lang-wrapper"></div>
+        <br>
+        <br>
+        <div class="menu_wrapper"></div>
+        <ul class="social">
+            <li class="googleplus">
+                <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+            </li>
+            <li class="twitter">
+                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+            </li>
+            <li class="vimeo">
+                <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+            </li>
+            <li class="youtube">
+                <a href="#" title="YouTube"><i class="icon-play"></i></a>
+            </li>
+            <li class="pinterest">
+                <a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div id="body_overlay"></div>
+
+
+    <!-- JS -->
+    <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+
+    <script src="{% static 'js/mfn.menu.js' %}"></script>
+    <script src="{% static 'js/jquery.plugins.js' %}"></script>
+    <script src="{% static 'js/jquery.jplayer.min.js' %}"></script>
+    <script src="{% static 'js/animations/animations.js' %}"></script>
+    <script src="{% static 'js/translate3d.js' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.video.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.actions.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.migration.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+    <script>
+        var revapi1, tpj;
+		  ( function() {
+				  if (!/loaded|interactive|complete/.test(document.readyState))
+					  document.addEventListener("DOMContentLoaded", onLoad);
+				  else
+					  onLoad();
+				  function onLoad() {
+					  if (tpj === undefined) {
+						  tpj = jQuery;
+						  if ("off" == "on")
+							  tpj.noConflict();
+					  }
+					  if (tpj("#rev_slider_1_1").revolution == undefined) {
+						  revslider_showDoubleJqueryError("#rev_slider_1_1");
+					  } else {
+						  revapi1 = tpj("#rev_slider_1_1").show().revolution({
+							  sliderType : "standard",
+							  sliderLayout : "auto",
+							  dottedOverlay : "none",
+							  delay : 9000,
+							  navigation : {
+								  onHoverStop : "off",
+							  },
+							  visibilityLevels : [1240, 1024, 778, 480],
+							  gridwidth : 1080,
+							  gridheight : 700,
+							  lazyType : "none",
+							  parallax : {
+								  type : "mouse",
+								  origo : "enterpoint",
+								  speed : 400,
+								  speedbg : 0,
+								  speedls : 0,
+								  levels : [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+							  },
+							  shadow : 0,
+							  spinner : "spinner2",
+							  stopLoop : "off",
+							  stopAfterLoops : -1,
+							  stopAtSlide : -1,
+							  shuffle : "off",
+							  autoHeight : "off",
+							  disableProgressBar : "on",
+							  hideThumbsOnMobile : "off",
+							  hideSliderAtLimit : 0,
+							  hideCaptionAtLimit : 0,
+							  hideAllCaptionAtLilmit : 0,
+							  debugMode : false,
+							  fallbacks : {
+								  simplifyAll : "off",
+								  nextSlideOnWindowFocus : "off",
+								  disableFocusListener : false,
+							  }
+						  });
+					  };
+				  };
+			  }());
+    </script>
+
+
+</body>
+
+</html>

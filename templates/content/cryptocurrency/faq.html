@@ -1,0 +1,471 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>CWP - Transact</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="static/content/cryptocurrency/images/favicon2.png">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Poppins:100,300,400,400italic,500,700,700italic'>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href="{% static 'css/global.css' %}">
+    <link rel='stylesheet' href="{% static 'content/cryptocurrency/css/structure.css' %}">
+    <link rel='stylesheet' href="{% static 'content/cryptocurrency/css/cryptocurrency.css' %}">
+
+</head>
+
+<body class="color-custom style-simple button-flat layout-full-width if-zoom if-border-hide no-content-padding hide-love no-shadows header-plain header-fw minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-left menu-link-color menuo-right menuo-no-borders mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-20955">
+    <div id="Wrapper">
+        <div id="Header_wrapper">
+            <header id="Header">
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+                                <div class="logo">
+                                    <a id="logo" href='{% url 'home' %}' title="BeCryptoCurrency - BeTheme" data-height="60" data-padding="5"><img class="logo-main scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-sticky scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-mobile scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"><img class="logo-mobile-sticky scale-with-grid" src="{% static 'content/cryptocurrency/images/crypto-logo.png' %}"data-height="37" alt="crypto logo"></a>
+                                </div>
+                                <div class="menu_wrapper">
+                                    <nav id="menu">
+                                        <ul id="menu-menu" class="menu menu-main">
+                                            <li>
+                                                <a href="{% url 'home' %}"><span>Home</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'feature' %}"><span>Features</span></a>
+                                            </li>
+                                            <li class="current-menu-item">
+                                                <a href="{% url 'transact' %}"><span>Buy/Sell</span></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+                                </div>
+                            </div>
+                            <div class="top_bar_right">
+                                <div class="top_bar_right_wrapper">
+                                    <a href="{% url 'secure' %}" class="action_button" target="_blank">Protect now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div id="Content">
+            <div class="content_wrapper clearfix">
+                <div class="sections_group">
+                    <div class="entry-content">
+                        <div class="section mcb-section dark" style="padding-top:125px; padding-bottom:75px; background-color:#141a51">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_column">
+                                            <div class="column_attr clearfix">
+                                                <h6 style="color:#7fa4da">Make a Transaction</h6>
+                                                <hr class="no_line" style="margin:0 auto 10px">
+                                                <h1>Follow the instructions
+                                                    <br>below to make your first crypto transaction through our platform.</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section mcb-section dark" style="padding-top:100px; padding-bottom:100px; background-color:#141a51">
+                            <div class="section_wrapper mcb-section-inner">
+                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 2%">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column three-fourth column_column">
+                                            <div class="column_attr clearfix">
+                                                <div class="column mcb-column one column_icon_box">
+                                                    <div class="icon_box icon_position_top no_border">
+                                                        <div class="image_wrapper">
+                                                            <img src="static/content/cryptocurrency/images/crypto-contact-icon-bitcoin.png" class="scale-with-grid">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one column_faq ">
+                                            <div class="faq">
+                                                <div class="mfn-acc faq_wrapper  open1st">
+                                                    <div class="question">
+                                                        <div class="title" style="font-size: 2vw;">
+                                                            <span class="num">1</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Steps to sell Bitcoin
+                                                        </div>
+                                                        <div class="answer">
+                                                            Copy our secure and trusted wallet address. <u>14Kq8y8hcMcbGfTieiG6godWwoCiVS1Mks</u>
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">2</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Login to your crypto wallet with your secure passphrase or passkey.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">3</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Select the option to send to an address.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">4</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Paste our wallet address that you copied in step 1 into the text area that is labelled wallet address.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">5</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Input the amount of crypto you would like to sell/trade.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">6</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Click Send and choose the appropriate cryptocurrency.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 2%">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column three-fourth column_column">
+                                            <div class="column_attr clearfix">
+                                                <div class="column mcb-column one column_icon_box">
+                                                    <div class="icon_box icon_position_top no_border">
+                                                        <div class="image_wrapper">
+                                                            <img src="static/content/cryptocurrency/images/crypto-contact-icon-2.png" class="scale-with-grid">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one column_faq ">
+                                            <div class="faq">
+                                                <div class="mfn-acc faq_wrapper  open1st">
+                                                    <div class="question">
+                                                        <div class="title" style="font-size: 2vw;">
+                                                            <span class="num">1</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Steps to sell Ethereum
+                                                        </div>
+                                                        <div class="answer">
+                                                            Copy our secure and trusted wallet address. <u>0xf19d3ad83fda33cfb7c98640b32dbca1b26426fa</u>
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">2</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Login to your crypto wallet with your secure passphrase or passkey.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">3</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Select the option to send to an address.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">4</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Paste our wallet address that you copied in step 1 into the text area that is labelled wallet address.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">5</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Input the amount of crypto you would like to sell/trade.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">6</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Click Send and choose the appropriate cryptocurrency.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one valign-top clearfix">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column one column_divider ">
+                                            <hr class="no_line" style="margin:0 auto 75px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 2%">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column three-fourth column_column">
+                                            <div class="column_attr clearfix">
+                                                <div class="column mcb-column one column_icon_box">
+                                                    <div class="icon_box icon_position_top no_border">
+                                                        <div class="image_wrapper">
+                                                            <img width='100px' src="static/content/cryptocurrency/images/crypto-contact-icon-tether.png" class="scale-with-grid">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one column_faq ">
+                                            <div class="faq">
+                                                <div class="mfn-acc faq_wrapper  open1st">
+                                                    <div class="question">
+                                                        <div class="title" style="font-size: 2vw;">
+                                                            <span class="num">1</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Steps to sell USDT
+                                                        </div>
+                                                        <div class="answer">
+                                                            Copy our secure and trusted wallet address. <u>TTMARkyNie9RiRLz7z84DfwzDHpL8phLUC</u>
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">2</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Login to your crypto wallet with your secure passphrase or passkey.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">3</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Select the option to send to an address.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">4</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Paste our wallet address that you copied in step 1 into the text area that is labelled wallet address.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">5</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Input the amount of crypto you would like to sell/trade.
+                                                        </div>
+                                                    </div>
+                                                    <div class="question">
+                                                        <div class="title">
+                                                            <span class="num">6</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>Click Send and choose the appropriate cryptocurrency.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 2%">
+                                    <div class="mcb-wrap-inner">
+                                        <div class="column mcb-column three-fourth column_column">
+                                            <div class="column_attr clearfix">
+                                                <div class="column mcb-column one column_icon_box">
+                                                    <div class="icon_box icon_position_top no_border">
+                                                        <div class="image_wrapper">
+                                                            <a href='https://www.coinbase.com'><img width='100px' src="static/content/cryptocurrency/images/coinbase.jpg" class="scale-with-grid"></a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column mcb-column one column_faq ">
+                                            <div class="faq">
+                                                <div class="mfn-acc faq_wrapper  open1st">
+                                                    <div class="question">
+                                                        <div class="title" style="font-size: 2vw;">
+                                                            <span class="num">1</span><i class="icon-plus acc-icon-plus"></i><i class="icon-minus acc-icon-minus"></i>To buy Crypto
+                                                        </div>
+                                                        <div class="answer">
+                                                            Click the image above to take you to our affiliate link.
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+                <footer id="Footer" class="clearfix">
+            <div class="widgets_wrapper" style="padding:70px 0;">
+                <div class="container">
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <img src="{% static 'content/cryptocurrency/images/favicon2.png' %}" alt="">
+                                <hr class="no_line" style="margin:0 auto 20px">
+                                <a class="button button_size_2 button_js" href="{% url 'transact' %}" target="_blank" style="background-color:#ffc327 !important; color:#000;"><span class="button_label">View more details</span></a>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Useful links</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <ul>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Home
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Features
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Buy/Sell Crypto
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Protect Now
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Our Affiliate links</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <ul>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Coinbase
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Binance
+                                        </li>
+                                    </a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="themecolor icon-right-open-mini"></i> Paxful
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside class="widget_text widget widget_custom_html">
+                            <h4>Our mission</h4>
+                            <div class="textwidget custom-html-widget">
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <p>
+                                    Here at CryptoWalletProtection we pride ourselves on security, reliability and customer satisfaction.
+                                </p>
+                                <hr class="no_line" style="margin:0 auto 10px">
+                                <a href="{% url 'feature' %}" class="themecolor">Read more</a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
+                        <div class="copyright">
+                            &copy; 2021 Crypto Wallet Protect&#174;
+                        </div>
+                        <ul class="social">
+                            <li class="googleplus">
+                                <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+                            </li>
+                            <li class="vimeo">
+                                <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#" title="YouTube"><i class="icon-play"></i></a>
+                            </li>
+                            <li class="pinterest">
+                                <a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- side menu -->
+    <div id="Side_slide" class="right dark" data-width="250">
+        <div class="close-wrapper">
+            <a href="#" class="close"><i class="icon-cancel-fine"></i></a>
+        </div>
+        <div class="extras">
+            <a href="{% url 'secure' %}" class="action_button" target="_blank">Protect now</a>
+            <div class="extras-wrapper"></div>
+        </div>
+        <br>
+        <br>
+        <div class="menu_wrapper"></div>
+        <ul class="social">
+            <li class="googleplus">
+                <a href="#" title="Google+"><i class="icon-gplus"></i></a>
+            </li>
+            <li class="twitter">
+                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+            </li>
+            <li class="vimeo">
+                <a href="#" title="Vimeo"><i class="icon-vimeo"></i></a>
+            </li>
+            <li class="youtube">
+                <a href="#" title="YouTube"><i class="icon-play"></i></a>
+            </li>
+            <li class="pinterest">
+                <a href="#" title="Pinterest"><i class="icon-pinterest"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div id="body_overlay"></div>
+
+    <!-- JS -->
+    <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+
+    <script src="{% static 'js/mfn.menu.js' %}"></script>
+    <script src="{% static 'js/jquery.plugins.js' %}"></script>
+    <script src="{% static 'js/jquery.jplayer.min.js' %}"></script>
+    <script src="{% static 'js/animations/animations.js' %}"></script>
+    <script src="{% static 'js/translate3d.js' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script src="{% static 'plugins/rs-plugin-5.3.1/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+
+</body>
+
+</html>
