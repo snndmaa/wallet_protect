@@ -52,7 +52,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-AUTH_USER_MODEL = 'secure.User'
 
 ROOT_URLCONF = 'wallet_protect.urls'
 
