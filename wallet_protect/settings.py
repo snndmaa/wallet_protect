@@ -21,10 +21,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-j2eq1thj8nv$t_3sps=&!1hx_#sv(6knpun0$o@s_wb^r_6x6s'
+# SECRET_KEY = 'django-insecure-j2eq1thj8nv$t_3sps=&!1hx_#sv(6knpun0$o@s_wb^r_6x6s'
+SECRET_KEY = os.environ.get('django_secret_key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('debug_val')
 
 ALLOWED_HOSTS = ['*']
 
@@ -50,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+AUTH_USER_MODEL = 'books.User'
 
 ROOT_URLCONF = 'wallet_protect.urls'
 
