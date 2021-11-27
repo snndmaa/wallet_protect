@@ -2215,7 +2215,6 @@ blockquote {
 	margin: 0 0 35px 25px;
 	top: 15px;
 	position: relative;
-	background: url(../images/stripes/textline.png) repeat-y
 }
 blockquote:before {
 	content: ""
@@ -6081,7 +6080,6 @@ a.icon_bar_dribbble span.b {
 	position: relative;
 	font-size: 15px;
 	line-height: 31px;
-	background: url(../images/stripes/textline.png) repeat-y
 }
 .timeline_items li .desc:before {
 	content: "";
@@ -19480,8 +19478,6 @@ a.action_button{display:block;padding:11px 20px;line-height:21px;float:left;posi
 a.action_button:hover{text-decoration:none}
 
 /* Blockquote */
-.dark blockquote{background-image:url(../images/textline_dark.png);}
-.dark blockquote:after{background-image:url(../images/blockquote_dark.png)}
 
 /* Wrap | Equal Height */
 .equal-height-wrap .mcb-wrap .mcb-wrap-inner{position:relative;float:left;width:100%}
