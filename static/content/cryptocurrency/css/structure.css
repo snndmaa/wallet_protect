@@ -580,7 +580,6 @@ body.nice-scroll:not(.layout-boxed) {
 	left: 0;
 	bottom: -3px;
 	z-index: 1;
-	background: url(../../../images/box_shadow.png) repeat-x left top;
 }
 #Sliding-top .widgets_wrapper {
 	padding: 15px 0;
@@ -1500,7 +1499,6 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	z-index: 205;
 	margin: 0;
 	display: none;
-	background-image: url(../../../images/box_shadow.png);
 	background-repeat: repeat-x;
 	background-position: left top;
 }
