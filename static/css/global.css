@@ -12483,10 +12483,8 @@ a.icon_bar {
 	display: block;
 }
 .ui-accordion .ui-state-default {
-	background: url(images/bg_widget_header.png) no-repeat 0 0;
 }
 .ui-accordion .ui-state-hover {
-	background: url(images/bg_widget_header_active.png) no-repeat 0 0;
 }
 .ui-tabs {
 	position: relative;
