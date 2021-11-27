@@ -538,10 +538,8 @@ body.nice-scroll:not(.layout-boxed) {
 	background-position: center center;
 }
 .tp-leftarrow.round, .tp-leftarrow.navbar {
-	background-image: url(../../../images/tp-leftarrow.png);
 }
 .tp-rightarrow.round, .tp-rightarrow.navbar {
-	background-image: url(../../../images/tp-rightarrow.png);
 }
 .tparrows.round:after {
 	content: "";
