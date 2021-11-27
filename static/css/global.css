@@ -12412,7 +12412,6 @@ a.icon_bar {
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 16px;
-	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-widget-overlay {
 	position: absolute;
@@ -12621,13 +12620,10 @@ a.icon_bar {
 	background-image: none;
 }
 .ui-state-default .ui-icon {
-	background-image: url(images/ui-icons_888888_256x240.png);
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(images/ui-icons_2e83ff_256x240.png);
 }
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
-	background-image: url(images/ui-icons_cd0a0a_256x240.png);
 }
 .ui-icon-carat-1-n {
 	background-position: 0 0;
@@ -13206,10 +13202,8 @@ a.icon_bar {
 	color: #cd0a0a;
 }
 .ui-widget-content .ui-icon, .ui-widget-header .ui-icon {
-	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-state-active .ui-icon {
-	background-image: url(images/ui-icons_454545_256x240.png);
 }
 .ui-icon-seek-start, .ui-icon-seek-first {
 	background-position: -80px -160px;
