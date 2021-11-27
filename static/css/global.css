@@ -6546,7 +6546,6 @@ ul.clients li .client_wrapper, ul.clients li .client_wrapper img {
 .blog_slider .blog_slider_ul li.format-link .item_wrapper .image_frame {
 	height: 180px;
 	background-color: rgba(255, 255, 255, .5);
-	background-image: url(../images/link.png);
 	background-position: center center;
 	background-repeat: no-repeat
 }
@@ -18008,7 +18007,6 @@ body.nice-scroll:not(.layout-boxed) {
 .section-post-related .format-link .image_frame {
 	height: 180px;
 	background-color: rgba(255, 255, 255, .5);
-	background-image: url(../images/link.png);
 	background-position: center center;
 	background-repeat: no-repeat
 }
@@ -18314,7 +18312,6 @@ body.nice-scroll:not(.layout-boxed) {
 
 .Recent_posts ul li.format-link .photo {
 	background-color: #eee;
-	background-image: url(../images/link.png);
 	background-position: center center;
 	background-repeat: no-repeat
 }
