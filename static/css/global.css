@@ -6030,11 +6030,9 @@ a.icon_bar_dribbble span.b {
 	width: 45%;
 	padding: 0 0 25px 55%;
 	position: relative;
-	background: url(../images/timeline_right.png) no-repeat top center
 }
 .timeline_items li:nth-child(even) {
 	padding: 0 55% 25px 0;
-	background: url(../images/timeline_left.png) no-repeat top center
 }
 .timeline_items li h3 {
 	font-size: 30px;
@@ -17593,7 +17591,6 @@ body.nice-scroll:not(.layout-boxed) {
 	padding-left: 200px;
 	margin-bottom: 0;
 	padding-bottom: 40px;
-	background: url(../images/timeline_right.png) no-repeat 90px top;
 }
 .timeline .post-item:last-child {
 	padding-bottom: 20px;
