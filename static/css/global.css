@@ -2223,7 +2223,6 @@ blockquote:after {
 	content: "";
 	width: 55px;
 	height: 40px;
-	background: url(../images/blockquote.png);
 	position: absolute;
 	left: -25px;
 	top: -15px
@@ -18338,7 +18337,6 @@ body.nice-scroll:not(.layout-boxed) {
 }
 .Recent_posts ul li.format-quote .photo {
 	background-color: #eee;
-	background-image: url(../images/blockquote.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 40% auto
