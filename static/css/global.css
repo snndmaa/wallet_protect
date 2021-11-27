@@ -2120,7 +2120,6 @@ a:hover.tp-button.lightgrey {
 	text-align: center;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .dropcap_circle {
 	-webkit-border-radius: 100%;
@@ -2147,7 +2146,6 @@ a:hover.tp-button.lightgrey {
 	padding: 1px 7px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .highlight.highlight_image {
 	padding: 0 2px 7px
@@ -2175,7 +2173,6 @@ a:hover.tp-button.lightgrey {
 	bottom: 110%;
 	z-index: 98;
 	margin-left: -85px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .tooltip.tooltip-img:after {
 	display: none
@@ -2194,7 +2191,6 @@ a:hover.tp-button.lightgrey {
 	bottom: 110%;
 	z-index: 98;
 	margin-left: -165px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .tooltip.tooltip-img:hover .tooltip-content, .tooltip.tooltip-img.hover .tooltip-content {
 	display: block
@@ -5173,7 +5169,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 
 .counter {
 	padding: 20px;
-	background-image: url(../images/stripes/stripes_10_b.png);
 	text-align: center;
 	position: relative
 }
@@ -5450,7 +5445,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	margin-bottom: 15px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .trailer_box:hover .desc .subtitle {
 	bottom: 20px
@@ -6096,7 +6090,6 @@ a.icon_bar_dribbble span.b {
 	position: absolute;
 	left: -122%;
 	top: 0;
-	background-image: url(../images/stripes/stripes_10_b.png)
 }
 .timeline_items li:nth-child(even) .desc:before {
 	left: auto;
