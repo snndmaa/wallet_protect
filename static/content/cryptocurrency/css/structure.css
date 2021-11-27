@@ -848,7 +848,6 @@ body.nice-scroll:not(.layout-boxed) {
 }
 .fixed-nav.format-link .photo {
 	background-color: #eee;
-	background-image: url("../../../images/link.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -2584,7 +2583,6 @@ body.header-stack:not(.template-slider) #Header {
 .section-post-related .format-link .image_frame {
 	height: 180px;
 	background-color: rgba(255, 255, 255, .5);
-	background-image: url("../../../images/link.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -2865,7 +2863,6 @@ body:not(.template-slider) .widget-area {
 
 .Recent_posts ul li.format-link .photo {
 	background-color: #eee;
-	background-image: url("../../../images/link.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
