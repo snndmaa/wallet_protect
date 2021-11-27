@@ -839,7 +839,6 @@ body.nice-scroll:not(.layout-boxed) {
 }
 .fixed-nav.format-quote .photo {
 	background-color: #eee;
-	background-image: url("../../../images/blockquote.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 50% auto;
@@ -2872,7 +2871,6 @@ body:not(.template-slider) .widget-area {
 }
 .Recent_posts ul li.format-quote .photo {
 	background-color: #eee;
-	background-image: url("../../../images/blockquote.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 40% auto;
