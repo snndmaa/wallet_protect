@@ -5327,7 +5327,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 .progress_bars .bars_list li .bar .progress {
 	display: block;
 	height: 100%;
-	background-image: url(../images/progressbar.png);
 	-webkit-box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.04);
 	box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.04)
 }
