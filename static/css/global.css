@@ -3461,7 +3461,6 @@ a.mfn-link-2 span, a:hover.mfn-link-2 span:before, a.hover.mfn-link-2 span:befor
 	border-width: 0;
 	border-style: solid;
 	cursor: pointer;
-	background-image: url(../images/bg_panel.png);
 	background-repeat: repeat-x;
 	background-position: left top
 }
@@ -12511,7 +12510,6 @@ a.icon_bar {
 }
 .ui-tabs .ui-tabs-nav {
 	display: block;
-	background-image: url(../images/bg_panel.png);
 	background-repeat: repeat-x;
 	background-position: left top;
 	border-style: solid;
@@ -13270,7 +13268,6 @@ a.icon_bar {
 		height: auto;
 		padding-left: 20px;
 		padding-right: 20px;
-		background-image: url(../images/bg_panel.png);
 		background-repeat: repeat-x;
 		background-position: left top;
 	}
