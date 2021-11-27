@@ -3005,7 +3005,6 @@ body:not(.template-slider) .widget-area {
 .widget_mfn_recent_comments ul {}
 .widget_mfn_recent_comments ul li {
 	padding-bottom: 15px;
-	background: url(../../../images/recent_comments.png) no-repeat 4px top;
 	padding-left: 40px;
 	position: relative;
 }
@@ -3044,7 +3043,6 @@ body:not(.template-slider) .widget-area {
 .widget_recent_comments ul li {
 	padding-bottom: 5px;
 	padding-top: 6px;
-	background: url(../../../images/recent_comments.png) no-repeat 4px top;
 	padding-left: 40px;
 	position: relative;
 }
