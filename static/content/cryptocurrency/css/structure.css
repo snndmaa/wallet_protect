@@ -2588,7 +2588,6 @@ body.header-stack:not(.template-slider) #Header {
 	display: block;
 	height: 180px;
 	background-color: rgba(255, 255, 255, .5);
-	background-image: url("../../../images/photo.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
