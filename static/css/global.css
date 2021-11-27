@@ -4677,7 +4677,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	transform: translateY(-20px);
 }
 .blog-teaser li .desc-wrapper .desc {
-	background: url(../images/blog_masonry_tile_gradient.png) top left repeat-x;
 	padding: 70px 25px 30px;
 }
 .blog-teaser li .desc-wrapper .desc .post-meta .author .label {
@@ -17453,7 +17452,6 @@ body.nice-scroll:not(.layout-boxed) {
 	bottom: -20px;
 }
 .masonry.tiles .post-item:not(.no-img) .post-desc-wrapper .post-desc {
-	background: url(../images/blog_masonry_tile_gradient.png) top left repeat-x;
 	padding: 70px 30px 30px;
 }
 .masonry.tiles .post-item .post-desc-wrapper .post-desc {
