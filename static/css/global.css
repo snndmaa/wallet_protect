@@ -13438,7 +13438,6 @@ div.jp-play-bar {
 	background-color: rgba(255, 255, 255, .15);
 }
 div.jp-seeking-bg {
-	background: url(images/jplayer.blue.monday.seeking.gif) repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 a.jp-mute, a.jp-unmute, a.jp-volume-max {
 	height: 10px;
