@@ -3825,7 +3825,6 @@ body.error404:not(.events-archive) #Content {
 	width: 50px !important;
 	height: 44px !important;
 	padding: 0 !important;
-	background: url("../../../images/contact_form_error.png") !important;
 	overflow: hidden;
 	text-indent: -9999px !important;
 	padding: 0;
