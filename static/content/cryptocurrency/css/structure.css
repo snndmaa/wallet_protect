@@ -4461,7 +4461,6 @@ html, body {
 		right: 0;
 		top: 0;
 		border-left: 1px solid rgba(0, 0, 0, 0.03);
-		background: url(../../../images/menu-plus.png) center no-repeat;
 	}
 	.header-simple #Top_bar #menu ul li.hover>.menu-toggle {
 		background: none !important;
@@ -4860,7 +4859,6 @@ html, body {
 		right: 0;
 		top: 0;
 		border-left: 1px solid rgba(0, 0, 0, 0.03);
-		background: url(../../../images/menu-plus.png) center no-repeat;
 	}
 	#Top_bar #menu ul li.hover>.menu-toggle {
 		background: none !important;
