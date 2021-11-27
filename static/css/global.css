@@ -6007,7 +6007,6 @@ a.icon_bar_dribbble span.b {
 .timeline_items {
 	margin: 0!important;
 	position: relative;
-	background: url(../images/timeline_top.png) no-repeat top center;
 	padding-top: 9px
 }
 .timeline_items:after {
