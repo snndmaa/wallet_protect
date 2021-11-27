@@ -461,7 +461,6 @@ a.button, a.tp-button, button, input[type="submit"], input[type="reset"], input[
 	overflow: hidden;
 	-webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .03);
 	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .03);
-	background-image: url(../images/box_shadow_button.png);
 	background-repeat: repeat-x;
 }
 a.button_js {
@@ -3513,7 +3512,6 @@ a.mfn-link-2 span, a:hover.mfn-link-2 span:before, a.hover.mfn-link-2 span:befor
 	padding: 15px 20px 20px;
 	overflow: hidden;
 	display: none;
-	background-image: url(../images/box_shadow.png);
 	background-repeat: repeat-x;
 	background-position: left top
 }
@@ -3650,14 +3648,12 @@ table th, table td {
 }
 table th {
 	font-weight: 700;
-	background: url(../images/bg_panel.png) repeat-x left top
 }
 table th.clear {
 	border: 0;
 	background: none
 }
 table tr:first-child td {
-	background: url(../images/box_shadow.png) repeat-x left top
 }
 table tr:nth-child(2n) td {
 	background: rgba(0, 0, 0, 0.01)
@@ -12601,7 +12597,6 @@ a.icon_bar {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background-image: url(../images/box_shadow.png);
 	background-repeat: repeat-x;
 	background-position: left top;
 	border-width: 0;
