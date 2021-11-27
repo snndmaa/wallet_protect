@@ -3006,7 +3006,6 @@ ul.list_mixed li:last-child:after, ul.list_check li:last-child:after, ul.list_st
 	display: none
 }
 ul.list_check li, li.list_check {
-	background: url(../images/icons/list_check.png) no-repeat 20px 5px
 }
 ul.list_star li, li.list_star {
 	background: url(../images/icons/list_star.png) no-repeat 20px 5px
@@ -5936,7 +5935,6 @@ a.icon_bar_dribbble span.b {
 .infobox ul li:before {
 	content: "";
 	display: block;
-	background: url(../images/icons/list_check.png) no-repeat;
 	width: 16px;
 	height: 16px;
 	position: absolute;
