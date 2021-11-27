@@ -337,7 +337,7 @@ body:not(.template-slider) #Content {
 .under-construction .section-uc-2 {
 	padding-top: 40px;
 	background-color: #f5f5f5;
-	background: url(../../../images/stripes/stripes_3_b.png) repeat center;
+	/* background: url(../../../images/stripes/stripes_3_b.png) repeat center; */
 }
 .under-construction .section-uc-3 {
 	padding-top: 40px;
