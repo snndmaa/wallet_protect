@@ -4133,7 +4133,6 @@ ul.testimonials-slider {
 	height: 100%;
 	width: 100%;
 	z-index: 3;
-	background: url(../../../images/videomask.png) repeat center;
 }
 .section.has-video .section_video video {
 	position: absolute;
