@@ -6287,7 +6287,6 @@ a.icon_bar_dribbble span.b {
 	margin: 0
 }
 .fancy_heading_line {
-	background-image: url(../images/fancy_heading_hr.png);
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	padding-bottom: 15px
@@ -16684,7 +16683,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 0
 }
 .fancy_heading_line {
-	background-image: url(../images/fancy_heading_hr.png);
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	padding-bottom: 15px
@@ -17234,7 +17232,6 @@ body.nice-scroll:not(.layout-boxed) {
 /* Fancy heading */
 
 .dark .fancy_heading_line {
-	background-image: url(../images/fancy_heading_hr_dark.png)
 }
 /* Content slider */
 
