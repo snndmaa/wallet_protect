@@ -6970,7 +6970,6 @@ html, body {
 	}
 	.ui-tabs .ui-tabs-nav li a {
 		text-align: center;
-		background-image: url(../../../images/bg_panel.png);
 		background-repeat: repeat-x;
 		background-position: left top
 	}
