@@ -706,7 +706,6 @@ body.nice-scroll:not(.layout-boxed) {
 ================================================== */
 
 .pager_lm {
-	background: url("../../../images/preloader.gif") no-repeat center 17px;
 	text-align: center;
 }
 .pager_lm .pager_load_more {
@@ -3950,7 +3949,6 @@ span.wpcf7-form-control-wrap .wpcf7-quiz, span.wpcf7-form-control-wrap .wpcf7-se
 ================================================== */
 
 .portfolio_slider_ul, ul.testimonials-slider {
-	background: url("../../../images/preloader.gif") no-repeat center center;
 }
 ul.testimonials-slider {
 	max-height: 260px;
