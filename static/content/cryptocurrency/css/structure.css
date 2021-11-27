@@ -2320,7 +2320,6 @@ body.header-stack:not(.template-slider) #Header {
 	padding-left: 200px;
 	margin-bottom: 0;
 	padding-bottom: 40px;
-	background: url(../../../images/timeline_right.png) no-repeat 90px top;
 }
 .timeline .post-item:last-child {
 	padding-bottom: 20px;
@@ -7036,7 +7035,6 @@ html, body {
 	}
 	.timeline_items li {
 		padding: 0 0 25px 150px !important;
-		background: url(../../../images/timeline_right.png) no-repeat!important;
 		background-position: 50px top!important;
 		width: auto
 	}
